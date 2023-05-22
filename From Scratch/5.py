@@ -1,4 +1,6 @@
-# Lists
+#-------------------------------------------------------------
+# Lists in Python
+# ------------------------------------------------------------
 
 # thisList = ["Apple", "Mango", "Kiwi", "Pineapple", "Apple","Guvava"]
 # print(thisList)
@@ -64,10 +66,87 @@
 # print(list)
 
 # Loop through the list
-thisList = ["Pavan", "Ravan", "Ravi", "Pankaj"]
+# thisList = ["Pavan", "Ravan", "Ravi", "Pankaj"]
 
-for index, x in enumerate( thisList):
-    print(index, x)
+# for index, x in enumerate( thisList):
+#     print(index, x)
 
-    # 0 : Pavan
-    # 1 : Ravan
+# for value in range(len(thisList)):
+#     print(value, thisList[value])
+
+
+#  Print Using While Loop
+# i=0
+# while i < len(thisList):
+#     print(thisList[i])
+#     i=i+1
+
+
+# Print using list comprehension
+# [print(x) for x in thisList]
+
+# fruits = ["Apple", "Banana", "Kiwi", "Mango"]
+# newList = [x for x in fruits if 'a' in x]
+# newList1 = [x for x in fruits if x != "Mango"]
+# print(newList)
+# print(newList1)
+
+
+# for x in fruits:
+#     if 'a' in x:
+#         newList.append(x)
+# print(fruits)
+# print(newList)
+
+
+# Iterables in Python
+# thisList=["Pavan","Rajesh","Yadav"]
+# newList=[x for x in range(4)]
+# print(newList)
+
+
+# Sorting in Python
+# thisList = ["Mango", "Kiwi", "Pineapple", "Banana", "Orange"]
+# thisList.sort()
+# print(thisList)
+
+# thisNum = [100, 50, 20, 55, 60, 90]
+# thisNum.sort()
+# print(thisNum)
+
+# # Sorting Descending
+# thisList.sort(reverse=True)
+# print(thisList)
+
+# -------------------------Copying a List----------------------------
+# Copy() Method
+thisList=["Pavan","Ravi","Kshitij","Mitesh"]
+newList=thisList.copy()
+# print(newList)
+
+# thisList = ["Pavan", "Ravi", "Kshitij", "Mitesh"]
+# list() Method
+# myList = list(thisList)
+# print(myList)
+for i in range(0,len(thisList)):
+    dic1 = {thisList[i]:newList[i]}
+    print(dic1)
+
+
+# -----------------------------------------Joining a List---------------------------------------
+
+# first is to use append() method
+# list = ['a', 'b', 'c']
+# list1 = [1, 2, 3]
+
+# for x in list1:
+#     list.append(x)
+
+# print(list)
+# print(list1)
+
+# # or you can use extend method
+# list = ['Pavan', 'Rajesh', 'Yadav']
+# list2 = [1, 2, 3]
+# list.extend(list2)
+# print(list)
