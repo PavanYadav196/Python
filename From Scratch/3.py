@@ -70,3 +70,15 @@ a = "Hello"
 b = " World"
 concat = a + b
 print(concat)
+
+# formating the string
+age = 36
+txt = "Hello, This is Pavan Yadav, I'am {} Year Old."
+print(txt.format(age))
+
+quantity = 3
+item = 10
+price = 200
+
+myOrder="I want {} pieces of item {} for {} ruppes"
+print(myOrder.format(quantity,item,price))
