@@ -41,7 +41,52 @@
 
 
 # Change Tuple Value
-x=("Apple","Banana","Kiwi")
-y=list(x)
-y[1]="Mango"
-print(y)
+# x=("Apple","Banana","Kiwi")
+# y=list(x)
+# y[1]="Mango"
+# print(y)
+
+
+# Add items
+# thisTuple=("Apple","Banana","Kiwi")
+# y=list(thisTuple)
+# y.append("Orange")
+# print(y)
+
+
+# Adding the new tuple into tuple
+# thisTuple=("Apple","Banana","Kiwi")
+# y=("Orange",)
+
+# thisTuple += y
+# print(thisTuple)
+
+
+# Unpacking the tuples
+
+# (one, two, *three) = fruits
+# (one, *two, three) = fruits
+
+# print(one)
+# print(two)
+# print(three)
+
+# Loop through tuples
+# for x in range(len(fruits)):
+#   print(fruits[x])
+
+
+# fruits = ("Apple", "Banana", "Kiwi", "Pineapple", "Guvava", "Mango")
+numbers = (1, 2, 3, 4, 5)
+
+# tupleJoin = fruits+numbers
+# tupleJoin= numbers * 2
+# print(tupleJoin)
+
+
+# myCount=numbers.count(5)
+# print(myCount)
+
+myIndex=numbers.index(3)
+txt="The Position variable found is {} "
+print(txt.format(myIndex))
