@@ -40,10 +40,45 @@
 # thisSet.update(anotherSet)
 
 # adding iterable object in python
-thisSet={"Apple","Kiwi","Guvava"}
-myList=["Pineapple","Banana"]
-thisSet.update(myList)
-print(thisSet)
+# thisSet = {"Apple", "Kiwi", "Guvava"}
+# myList = ["Pineapple", "Banana"]
+# thisSet.update(myList)
+# print(thisSet)
 
 # Removing the value in set in python
 
+# thisSet.remove("Banana")
+# print(thisSet)
+
+# thisSet.discard("Apple")
+# print(thisSet)
+
+# Pop() Method
+# anotherSet = {"Mango", "Litchi", "Berry"}
+# poppedSet=anotherSet.pop()
+# print(poppedSet)
+# print(anotherSet)
+
+# Clear() Method
+# anotherSet.clear()
+# print(anotherSet)
+
+
+# del() Method
+# del anotherSet
+
+
+# dic = {{"Pavan": 123},
+#        {"Kshitij": 9898,
+#         "Mitesh": 9876}
+#        }
+
+# name = input("enter the name:")
+# print(dic[name])
+
+
+# emp = { "Pavan":{ "id":1, "pwd":675,"add":"amd"},
+#         "Kd":123
+  
+# }
+# print(emp["Pavan"])
