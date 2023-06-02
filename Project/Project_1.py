@@ -18,23 +18,23 @@ print("\n\t You have only", round(math.log(upper - lower + 1, 2)),
 count = 0
 
 while count < math.log(upper - lower + 1, 2):
+    # while True:
     count += 1
 
 
 # taking guessing number as input
-guess = int(input("Enter the value"))
+    guess = int(input("Enter the value"))
 
 # Condition testing
-if x == guess:
-    print("Congratulation you did it", count, "try")
+    if x == guess:
+        print("Congratulation you did it", count, "try")
+        break
+    if x < guess:
+        print("You guessed it too high")
+    else:
+        print("You guessed it too low")
 
-elif x > guess:
-    print("You guessed it too high")
-elif x < guess:
-    print("You guessed it too low")
-
-
-# if guesses is more than required show this message
-if count >= math.log(upper - lower + 1, 2):
-    print("\nThe number is %d" %x)
-    print("\tBetter Luck Next time!")
+    # if guesses is more than required show this message
+    if count >= math.log(upper - lower + 1, 2):
+        print("\nThe number is %d" % x)
+        print("\tBetter Luck Next time!")
